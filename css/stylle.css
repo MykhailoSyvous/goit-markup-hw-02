@@ -39,7 +39,7 @@ a {
    color: var(--color-secundery); 
 }
 .header-link{
-    color: var(--color-grimery);
+    color: var(--color-secundery);
     text-decoration: none;
     font-size: 16px;
         font-weight: 500;
@@ -48,7 +48,7 @@ a {
         letter-spacing: 0.02em;
         
 }
-.header-link:hover{
+.header-link:hover,.contacts-link:focus{
     color: var(--color-brend-hover);
 }
 .contacts-link{ color: var(--color-grimery);
@@ -57,7 +57,7 @@ a {
     letter-spacing: 0.02em;
 
 }
-.contacts-link:hover,.contacts-link:focus{color: var(--color-brend-hover);
+.contacts-link:hover,.contacts-link:focus,.contacts-link:active{color: var(--color-brend-hover);
     
 }
 /* herro-section */
