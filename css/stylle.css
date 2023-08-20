@@ -88,13 +88,16 @@ a {
 background-color: var(--color-brend-hover);
 }
 .advantages-title{
+    color: var(--color-secundery);
     font-size: 20px;
+    letter-spacing: 0.02em;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
 }
 .text-advantages{
-    color: var(--color-secundery);
-    line-height: 24px;
+    color: var(--color-grimery);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* our-team-sections */
 .Our-team-sections{
