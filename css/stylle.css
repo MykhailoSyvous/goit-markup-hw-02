@@ -62,24 +62,25 @@ a {
 }
 /* herro-section */
 .hero-section{
-    background-color: var(--color-grimery);
+    background-color: var(--color-secundery);
 }
 .hero-title{
     color:var(--color-hero-title-text);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-        
+    letter-spacing: 0.02em;
 }
 .hero-button{background-color:var(--color-brend);
     color: var(--color-hero-button-text);
     border: none;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
-        cursor: pointer;
+    cursor: pointer;
+    letter-spacing: 0.04em;
 
 }
 .hero-button:hover,.hero-button:focus{
