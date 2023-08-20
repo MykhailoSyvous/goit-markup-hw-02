@@ -1,16 +1,14 @@
 :root{
-    --color-grimery:#2E2F42;
+    --color-grimery:#434455;
     --color-brend:#4D5AE5;
     --color-brend-hover:#404BBF;
-    --color-secundery:#434455;
+    --color-secundery:#2E2F42;
     --color-hero-title-text:#FFF;
     --color-hero-button-text:#FFF;
     --backraund-section-our-team:#F4F4FD;
     --footer-logo:#F4F4FD;
     --footer-text:#F4F4FD;
 --backraundcolor-body:#FFFFFF;
-
-
 }
 body{
     color:var(--color-grimery);
@@ -27,17 +25,18 @@ a {
 }
 /* header */
 .logo-header{
-    color: var(--color-grimery);
+    color: var(--color-brend);
     font-size: 18px;
     text-decoration: none;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+     text-transform: uppercase;
 }
 .akcent-hrader-logo{
-   color: var(--color-brend); 
+   color: var(--color-secundery); 
 }
 .header-link{
     color: var(--color-grimery);
