@@ -51,7 +51,7 @@ a {
 .header-link:hover,.header-link:focus{
     color: var(--color-brend-hover);
 }
-.contacts-link{color: var(--color-secundery);
+.contacts-link{color: var(--color-grimery);
     line-height: 1.5;
     font-style: normal;
     letter-spacing: 0.02em;
