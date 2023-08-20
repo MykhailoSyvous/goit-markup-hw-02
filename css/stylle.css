@@ -8,6 +8,7 @@
     --backraund-section-our-team:#F4F4FD;
     --footer-logo:#F4F4FD;
     --footer-text:#F4F4FD;
+--backraundcolor-body:#FFFFFF;
 
 
 }
@@ -16,6 +17,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    background-color:var(--backraundcolor-body)
 }
 ul {
     list-style-type: none;
@@ -32,6 +34,7 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+    text-transform: uppercase;
 }
 .akcent-hrader-logo{
    color: var(--color-brend); 
@@ -42,6 +45,7 @@ a {
     font-size: 16px;
         font-weight: 500;
         line-height: 24px;
+        
 }
 .header-link:hover,.header-link:focus{
     color: var(--color-brend-hover);
@@ -127,6 +131,7 @@ font-family: 'Raleway';
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
+text-transform: uppercase;
 }
 .footer-logo-akcent{
 color: var(--color-brend);
