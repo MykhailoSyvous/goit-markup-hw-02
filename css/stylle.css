@@ -52,7 +52,9 @@ a {
     color: var(--color-brend-hover);
 }
 .contacts-link{color: var(--color-secundery);
-    line-height: 24px;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
 
 }
 .contacts-link:hover{color: var(--color-brend-hover);
@@ -67,7 +69,7 @@ a {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
         
 }
