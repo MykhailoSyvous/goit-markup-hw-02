@@ -147,20 +147,23 @@ background-color: var(--color-brend-hover);
     background-color: var(--color-secundery);
 }
 .footer-logo{
-color: var(--footer-logo);
+color:var(--color-brend);
 text-decoration: none;
-font-family: 'Raleway';
+font-family: 'Raleway',sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
 text-transform: uppercase;
+line-height: 1.17;
+letter-spacing: 0.03em;
 }
 .footer-logo-akcent{
-color: var(--color-brend);
+color: var(--backraund-section-our-team)
 
 }
 .footer-text{
     color: var(--footer-text);
     line-height: 24px;
+    letter-spacing: 0.02em;
 
 }
